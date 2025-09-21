@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="font aws/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar-example">
+        <div class="container">
+            <a class="navbar-brand text-uppercase nav-font-a main-font " href="#">Daniels</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item my-nav-item">
+                        <a class="nav-link active p-0 m-3 sec-font fs-14" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 m-3 sec-font fs-14" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 m-3 sec-font fs-14" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 m-3 sec-font fs-14" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 m-3 sec-font fs-14" href="#clients">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 m-3 sec-font fs-14" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 m-3 sec-font fs-14" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="home d-flex justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="home-cap text-center">
+                    <h5 class="fs-50 text-light home-font fs-60 mb-3">Hello</h5>
+                    <h1 class="text-light home-font fs-60">I Am <span id="element"
+                            class="home-font fs-60 text-light"></span></h1>
+
+                    <div class="home-icon mt-4">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-behance"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="about" class="about p-100">
+        <div class="container">
+            <div class="row">
+                <div class="about-img col-md-5">
+                    <img src="./imgs/hero.jpg" alt="" class="w-100 z-2">
+
+                </div>
+
+
+                <div class="col-md-7 about-text">
+                    <h3 class="fs-2  main-font m-0">About Me.</h3>
+                    <span class="sub-title about-text-font sec-font fs-14">UI / UX Designer &amp; Web Developer</span>
+                    <p class="mt-4 about-text-font-2 sec-font ">
+                        I am <b>Jerry Daniels</b> Lorem Ipsum is simply dummy text of
+                        the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever It has survived not only
+                        five centuries, but also the leap into electronic but also the
+                        leap into electronic typesetting, remaining essentially
+                        unchanged. It was popularised in the 1960s with the release of
+                        Letraset sheets containing
+                    </p>
+                    <div class="skills mt-4">
+                        <div class="skill-item mb-4">
+                            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar p-1 my-prog" style="width: 95%">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <h6 class="me-auto main-font mt-7">Web Design</h6>
+                                        <span>95%</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar p-1 my-prog" style="width: 80%">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <h6 class="me-auto main-font mt-7">Branding</h6>
+                                        <span>80%</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar p-1 my-prog" style="width: 95%">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <h6 class="me-auto main-font mt-7">Development</h6>
+                                        <span>90%</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-btn mt-5">
+                        <a href="#" class="btn btn-dark my-about-btn px-4 sec-font fs-14">Download C.V</a>
+
+                        <a href="#" class="btn btn-dark my-about-btn-2 px-4 sec-font fs-14">Contact Me</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services p-100">
+        <div class="container">
+            <div class="ser-head d-flex justify-content-center">
+                <h3 class="fs-1 fw-bolder main-font">Services.</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 gy-5">
+                    <div class="card p-5 box-shadow-full border border-0">
+                        <div class="card-box d-flex justify-content-center">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <i class="fa fa-laptop fs-30"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="text-center  mb-3 main-font fw-bolder fs-18">Web Design</h6>
+                            <p class="card-text ser-color sec-font fs-14">Lorem Ipsum is simply dummy text of the Lorem
+                                Ipsum has been
+                                the
+                                industry's standard dummy text ever</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 gy-5">
+                    <div class="card p-5 box-shadow-full border border-0">
+                        <div class="card-box d-flex justify-content-center">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <i class="fa fa-bullhorn fs-30"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="text-center  mb-3 main-font fw-bolder fs-18">Web Design</h6>
+                            <p class="card-text ser-color sec-font fs-14">Lorem Ipsum is simply dummy text of the Lorem
+                                Ipsum has been
+                                the
+                                industry's standard dummy text ever</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 gy-5">
+                    <div class="card p-5 box-shadow-full border border-0">
+                        <div class="card-box d-flex justify-content-center">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <i class="fa fa-umbrella fs-30"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="text-center  mb-3 main-font fw-bolder fs-18">Web Design</h6>
+                            <p class="card-text ser-color sec-font fs-14">Lorem Ipsum is simply dummy text of the Lorem
+                                Ipsum has been
+                                the
+                                industry's standard dummy text ever</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 gy-5">
+                    <div class="card p-5 box-shadow-full border border-0">
+                        <div class="card-box d-flex justify-content-center">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <i class="fa fa-diamond fs-30"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="text-center  mb-3 main-font fw-bolder fs-18">Web Design</h6>
+                            <p class="card-text ser-color sec-font fs-14">Lorem Ipsum is simply dummy text of the Lorem
+                                Ipsum has been
+                                the
+                                industry's standard dummy text ever</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 gy-5">
+                    <div class="card p-5 box-shadow-full border border-0">
+                        <div class="card-box d-flex justify-content-center">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <i class="fa fa-television fs-30"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="text-center  mb-3 main-font fw-bolder fs-18">Web Design</h6>
+                            <p class="card-text ser-color sec-font fs-14">Lorem Ipsum is simply dummy text of the Lorem
+                                Ipsum has been
+                                the
+                                industry's standard dummy text ever</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 gy-5">
+                    <div class="card p-5 box-shadow-full border border-0">
+                        <div class="card-box d-flex justify-content-center">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <i class="fa fa-camera fs-30"></i>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="text-center  mb-3 main-font fw-bolder fs-18">Web Design</h6>
+                            <p class="card-text ser-color sec-font fs-14">Lorem Ipsum is simply dummy text of the Lorem
+                                Ipsum has been
+                                the
+                                industry's standard dummy text ever</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="works" class="works p-100">
+
+        <div class="container">
+            <div class="ser-head d-flex justify-content-center mb-80">
+                <h3 class="fs-1 fw-bolder main-font">Portfolio.</h3>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills mb-3 w-fit m-auto work-nav" id="pills-tab" role="tablist">
+                    <li class="nav-item m-3" role="presentation">
+                        <button class="nav-link active p-0 fw-bolder" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item m-3" role="presentation">
+                        <button class="nav-link p-0 fw-bolder" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Brand</button>
+                    </li>
+                    <li class="nav-item m-3" role="presentation">
+                        <button class="nav-link p-0 fw-bolder" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Design</button>
+                    </li>
+
+                    <li class="nav-item m-3" role="presentation">
+                        <button class="nav-link p-0 fw-bolder" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-des" type="button" role="tab" aria-controls="pills-des"
+                            aria-selected="false">Graphic</button>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="row">
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/1.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/1.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/2.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/2.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/3.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/3.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/4.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/4.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/5.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/5.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/6.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/6.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/4.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/4.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/6.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/6.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/2.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/2.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/5.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/5.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-des" role="tabpanel" aria-labelledby="pills-des-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/1.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/1.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/3.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/3.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6 col-md-4 gy-4">
+                                <div class="work-img">
+                                    <img src="imgs/portfolio/5.jpg" alt="" class="w-100">
+                                    <div class="work-layout">
+                                        <div class="layout-mid">
+                                            <h6 class="sm-titl main-font fw-bold text-center">WEB DESIGN</h6>
+                                            <div class="work-layout-icon text-center d-flex justify-content-center">
+                                                <span class="icon m-1">
+                                                    <a href="#0" class="text-decoration-none">
+                                                        <i class="fa fa-chain-broken" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                                <span class="icon link m-1">
+                                                    <a href="imgs/portfolio/5.jpg">
+                                                        <i class="fa fa-search-plus" aria-hidden="true"></i>
+                                                    </a>
+                                                </span>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="clients" class="clients p-100 main-color">
+        <div class="container">
+            <div class="ser-head d-flex justify-content-center mb-5">
+                <h3 class="fs-1 fw-bolder main-font">Testimonials.</h3>
+            </div>
+
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <div class="chef text-center">
+                            <div class="client-img mb-3 ">
+                                <img src="./imgs/1_New1.jpg" class="d-block rounded rounded-circle m-auto" alt="...">
+                            </div>
+                            <div class="chef-content">
+                                <p>
+                                    Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen book.
+                                </p>
+                                <h6 class="">Alex Smith</h6>
+                                <span>Envato Customer</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="chef text-center">
+                            <div class="client-img mb-3 ">
+                                <img src="./imgs/1_New1.jpg" class="d-block rounded rounded-circle m-auto" alt="...">
+                            </div>
+                            <div class="chef-content">
+                                <p>
+                                    Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen book.
+                                </p>
+                                <h6 class="">Alex Smith</h6>
+                                <span>Envato Customer</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="chef text-center">
+                            <div class="client-img mb-3 ">
+                                <img src="./imgs/1_New1.jpg" class="d-block rounded rounded-circle m-auto" alt="...">
+                            </div>
+                            <div class="chef-content">
+                                <p>
+                                    Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen book.
+                                </p>
+                                <h6 class="">Alex Smith</h6>
+                                <span>Envato Customer</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-indicators position-static mt-4">
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <div class="layout-work p-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="item">
+                        <span class="icon mb-2 d-inline-block "><i class="fa fa-users fs-30 "
+                                aria-hidden="true"></i></span>
+                        <h3 class="counter fw-bolder">850</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="item">
+                        <span class="icon mb-2 d-inline-block"><i class="fa fa-thumbs-up fs-30 "
+                                aria-hidden="true"></i></span>
+                        <h3 class="counter fw-bolder">850</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="item">
+                        <span class="icon mb-2 d-inline-block "><i class="fa fa-bullhorn fs-30 "
+                                aria-hidden="true"></i></span>
+                        <h3 class="counter fw-bolder">850</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="item">
+                        <span class="icon mb-2 d-inline-block "><i class="fa fa-cloud-download fs-30 "
+                                aria-hidden="true"></i></span>
+                        <h3 class="counter fw-bolder">850</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="team" class="team p-100 main-color">
+        <div class="container">
+            <div class="ser-head d-flex justify-content-center mb-80">
+                <h3 class="fs-1 fw-bolder main-font">Our Team.</h3>
+            </div>
+
+            <div class="row pt-50">
+                <div class="col-md-4">
+                    <div class="card rounded rounded-0">
+
+                        <div class="team-img">
+                            <img src="./imgs/1.jpg" class="card-img-top w-100" alt="...">
+
+                            <div class="team-layout d-flex justify-content-center align-items-center">
+                                <div class="team-icon d-flex">
+                                    <span><i class="fa-brands fa-facebook"></i></span>
+                                    <span><i class="fa-brands fa-twitter"></i></span>
+                                    <span><i class="fa-brands fa-pinterest"></i></span>
+                                    <span><i class="fa-brands fa-linkedin"></i></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body team-bg">
+                            <div class="img-text text-center">
+                                <h4 class="main-font">John Doe</h4>
+                                <h5 class="main-font">Front-End Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card rounded rounded-0">
+
+                        <div class="team-img">
+                            <img src="./imgs/2.jpg" class="card-img-top w-100" alt="...">
+
+                            <div class="team-layout d-flex justify-content-center align-items-center">
+                                <div class="team-icon d-flex">
+                                    <span><i class="fa-brands fa-facebook"></i></span>
+                                    <span><i class="fa-brands fa-twitter"></i></span>
+                                    <span><i class="fa-brands fa-pinterest"></i></span>
+                                    <span><i class="fa-brands fa-linkedin"></i></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body team-bg">
+                            <div class="img-text text-center">
+                                <h4 class="main-font">John Doe</h4>
+                                <h5 class="main-font">Front-End Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card rounded rounded-0">
+
+                        <div class="team-img">
+                            <img src="./imgs/1.jpg" class="card-img-top w-100" alt="...">
+
+                            <div class="team-layout d-flex justify-content-center align-items-center">
+                                <div class="team-icon d-flex">
+                                    <span><i class="fa-brands fa-facebook"></i></span>
+                                    <span><i class="fa-brands fa-twitter"></i></span>
+                                    <span><i class="fa-brands fa-pinterest"></i></span>
+                                    <span><i class="fa-brands fa-linkedin"></i></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body team-bg">
+                            <div class="img-text text-center">
+                                <h4 class="main-font">John Doe</h4>
+                                <h5 class="main-font">Front-End Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact p-100">
+        <div class="container">
+            <div class="ser-head d-flex justify-content-center mb-5">
+                <h3 class="fs-1 fw-bold main-font">Contact Us.</h3>
+            </div>
+
+            <div class="row contact-info">
+                <div class="col-md-12">
+                    <div class="row contact-icons  text-center mb-5">
+                        <div class="contact-icon col-md-4">
+                            <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-location-arrow  mb-3" aria-hidden="true"></i>
+                            </span>
+                            <h6 class="mb-2 fw-bolder main-font">Address</h6>
+                            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+                        </div>
+                        <div class="contact-icon col-md-4">
+                            <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-envelope fs-5 mb-3" aria-hidden="true"></i>
+                            </span>
+                            <h6 class="mb-2 fw-bolder main-font">Address</h6>
+                            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+                        </div>
+                        <div class="contact-icon col-md-4">
+                            <span class="d-flex justify-content-center align-items-center">
+                                <i class="fa fa-phone fs-5 mb-3" aria-hidden="true"></i>
+                            </span>
+                            <h6 class="mb-2 fw-bolder main-font">Address</h6>
+                            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-form">
+                        <div class="row">
+                            <div class=" col-md-6 mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Name">
+                            </div>
+                            <div class=" col-md-6 mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Email">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
+                                        placeholder="Message"></textarea>
+                                </div>
+
+                                <input type="submit" value="Submit" class="btn btn-dark py-2 px-5">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+    <footer class=" text-center">
+        <p class="p-30  mb-0">Copy Right 2018 © By Daniels All Rights Reserved</p>
+
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+
+
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Omar Fesal', 'Developer', 'Designer'],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+</body>
+
+</html>
